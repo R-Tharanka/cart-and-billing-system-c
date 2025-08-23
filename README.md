@@ -1,5 +1,4 @@
 # SHOPPING CART AND BILL GENERATOR
-================================
 
 
 ## Project Description
