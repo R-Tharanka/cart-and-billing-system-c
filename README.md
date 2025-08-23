@@ -2,7 +2,7 @@
 
 
 ## Project Description
-------------------
+
 This is a terminal-based Shopping Cart and Bill Generator system implemented in C.
 It allows users to manage a list of items for purchase, compute subtotals and totals,
 apply discounts, and generate formatted receipts. The system is designed to demonstrate
@@ -10,7 +10,7 @@ proficiency in C programming fundamentals including functions, conditional logic
 loops, arrays, and text file handling.
 
 ## Features
---------
+
 1. **Item Management**
    - Add items to the cart with unique code, name, quantity, and price
    - View all items in the cart with a formatted tabular display
@@ -35,7 +35,7 @@ loops, arrays, and text file handling.
    - Handle invalid inputs with appropriate error messages
 
 ## Technical Implementation
---------------------
+
 - Written in C (ISO C99 compatible)
 - Modular design with 10+ user-defined functions
 - Structured data storage using arrays of structs
@@ -44,7 +44,7 @@ loops, arrays, and text file handling.
 - Cross-platform compatibility (Windows, Linux, macOS)
 
 ## Compilation Instructions
------------------------
+
 To compile the program using gcc:
 
 ```
@@ -57,7 +57,7 @@ gcc -Wall -Wextra -pedantic -std=c99 -o shopping_cart shopping_cart.c
 ```
 
 ## Running the Program
-------------------
+
 After compilation, run the program using:
 
 ```
@@ -70,7 +70,7 @@ shopping_cart.exe
 ```
 
 ## Usage Guide
------------
+
 1. **Main Menu Navigation**
    - Select options by entering the corresponding number (1-7)
    - Follow on-screen prompts for each operation
@@ -91,7 +91,7 @@ shopping_cart.exe
    - Always use Save & Exit (Option 7) to ensure data is properly saved
 
 ## Project Structure
-----------------
+
 ```
 cart-and-billing-system-c/
 ├── shopping_cart.c     # Main source code
@@ -101,7 +101,7 @@ cart-and-billing-system-c/
 ```
 
 ## Data Format
-----------
+
 Items are stored in bills.txt using pipe-delimited format:
 ```
 <code>|<name>|<quantity>|<unit_price>|<subtotal>
@@ -114,7 +114,7 @@ Example:
 ```
 
 ## Implementation Details
----------------------
+
 - **Discount Logic**: Automatically applies 10% discount for bills ≥ 500
 - **Data Loading**: Loads previous cart data from bills.txt on startup
 - **Receipt Storage**: Appends formatted receipts to bills.txt
@@ -123,7 +123,7 @@ Example:
 - **Error Handling**: Graceful handling of invalid inputs and file operations
 
 ## Requirements Fulfillment
------------------------
+
 This implementation satisfies all project requirements including:
 - Multiple user-defined functions
 - Two distinct calculations (subtotal, final bill with discount)
